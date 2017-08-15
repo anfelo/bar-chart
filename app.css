@@ -1,0 +1,57 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-color: #637a91;
+}
+
+.chart-wrapper {
+  width: 960px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+.chart {
+  margin: auto;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.axis text {
+  font: 10px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+div.tooltip {	
+    position: absolute;			
+    text-align: center;				
+    height: 30px;					
+    padding: 5px;				
+    font: 12px sans-serif;		
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 5px;			
+    pointer-events: none;			
+}
+
+.chart-title {
+  font-size: 30px;
+  fill: #3079ab;
+}
+
+.caption {
+  width: 900px;
+  font-size: 13px;
+  margin: 0 30px;
+  color: #637a91;
+}
